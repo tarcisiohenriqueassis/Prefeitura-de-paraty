@@ -1,0 +1,160 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:sans-serif;
+}
+
+
+
+header{
+    display: flex;
+    justify-content:space-around;
+    margin:13px 0px;
+    
+}
+header nav{
+    display: flex;
+    align-items: center;
+}
+header nav a{
+    padding: 20px;
+    text-decoration: none;
+    color: #000;
+    font-size: medium;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+header nav a:hover{
+    color: #141212ab;
+}
+main,.container-sobre-a-cidade{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main .container-venha-conhecer-paraty{
+    height: auto;
+    position: relative;
+}
+main .venha-conhecer-paraty{
+    width: 100%;
+    height: 101%;
+    position: absolute;
+    text-align: center;
+    letter-spacing: 5px;
+    color: #fff;
+    background-color: #0000004f;
+    text-shadow: 1px 2px 4px black;
+    text-transform: uppercase;
+}
+main .venha-conhecer-paraty  h1{
+    position: absolute;
+    top: 40%;
+    left: 37%;
+    text-transform: uppercase;
+}
+main .venha-conhecer-paraty span{
+    font-size: 65px;
+    letter-spacing: 13px;
+}
+.fundo-venha-conhecer-paraty{
+    width: 98.8vw;
+    height: 370px;
+}
+.subtitulo-sobre-a-cidade{
+    font-size: 16px;
+    padding: 40px;
+}
+.div-imagem-praca-matriz{
+    width: 80vw;
+}
+.section-sobre-paraty{
+    width: 82%;
+    letter-spacing: 1px;
+    text-align: left;
+    line-height: 20px;
+}
+.section-sobre-paraty p{
+    padding: 11px;
+}
+.section-sobre-paraty p::first-letter{
+    font-weight: bolder;
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+}
+.pontos-turisticos{
+    width: 80vw;
+    text-align: center;
+    background-color: #c0c0c02b;
+}
+.pontos-turisticos h2{
+    padding:30px 0px 17px;
+}
+.pontos-turisticos p{
+    padding: 15px 0px;
+    text-align: left;
+}
+.pontos-turisticos nav{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+.pontos-turisticos nav a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    padding-bottom: 6px;
+}
+.pontos-turisticos  nav a:hover{
+    color: #141212ab;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+.pontos-turisticos nav a::before{
+    content: url("img/seta.png");
+    width: 30px;
+    height: auto;
+}
+.section-galeria-de-fotos{
+    text-align: center;
+}
+.section-galeria-de-fotos h2{
+    margin-bottom: 6px;
+}
+.section-galeria-de-fotos p{
+    text-align: left;
+    padding: 20px;
+    margin-left: 111px;
+}
+.container-imagens-galeria figure{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container-imagens-galeria img{
+    width: 357px;
+    padding: 1px;
+    opacity: 65%;
+}
+.container-imagens-galeria img:hover{
+    opacity: 100%;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(255 255 0 / 85%);
+    margin-top: 23px;
+}
+footer p{
+    color: red;
+    padding-bottom: 5px;
+}
+footer p:nth-child(1){
+    color: #000;
+    padding: 5px 0px 6px;
+}
